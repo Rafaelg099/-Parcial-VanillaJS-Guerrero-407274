@@ -1,0 +1,150 @@
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.card {
+  max-width: 400px;
+  margin: 40px auto;
+  background: lightsteelblue;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.avatar-container {
+  margin-bottom: 20px;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.descripcion {
+  margin-bottom: 15px;
+}
+
+.contacto {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* --- */
+
+.link-card {
+  display: inline-block;
+  margin: 15px;
+  padding: 10px 20px;
+  background: lightgray;
+  color: black;
+  border-radius: 8px;
+  text-decoration: none;
+}
+/* 
+.link-card:hover {
+  background: #0056b3;
+} */
+
+.card ul {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.card li {
+  margin-bottom: 8px;
+}
+
+/* Estilos para la sección "Hablemos" - Agregar al final de tu archivo styles.css */
+
+/* Contenedor de la imagen/SVG de contacto */
+.contact-img {
+  margin: 15px auto;
+  max-width: 200px;
+}
+
+/* SVG de contacto */
+.contact-gif {
+  width: 100%; /* O el tamaño específico que desees */
+  max-width: 200px; /* Para limitar el tamaño máximo */
+  height: auto; /* Para mantener la proporción */
+}
+
+/* Formulario de contacto */
+.contact-form {
+  text-align: left;
+  margin: 20px 0;
+}
+
+/* Grupos de elementos del formulario */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Etiquetas de los campos */
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Campos de texto y áreas de texto */
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: 14px;
+}
+
+/* Botón de enviar */
+.submit-btn {
+  background-color: #4a89dc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #366dc0;
+}
+
+/* Indicador de estado del formulario */
+.form-status {
+  margin: 15px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.form-status.sending {
+  background-color: #f0f8ff;
+  color: #0066cc;
+}
+
+.form-status.success {
+  background-color: #e6ffe6;
+  color: #006600;
+}
+
+.form-status.error {
+  background-color: #ffe6e6;
+  color: #cc0000;
+}
